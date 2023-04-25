@@ -1,0 +1,781 @@
+/* top page */
+.page-heading__title {
+  color: #fff;
+  display: block;
+  left: 50.3%;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.delife {
+  text-align: left;
+  font-size: 100px;
+  letter-spacing: 0.1em;
+  transform: translate(0%, -7%);
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.top_subtitle {
+  text-align: left;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 10%;
+  margin-top: 1%;
+}
+
+.index_top_title {
+  -webkit-text-stroke: 2px #FFF;
+  font-size: 80px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: transparent;
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 1;
+}
+
+.top-heading__title {
+  top: 47.2%;
+  color: #fff;
+  display: block;
+  left: 56.6%;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.page-heading {
+  padding-bottom: 0px;
+  overflow: visible;
+}
+
+.page-heading__title>.en {
+  letter-spacing: 0.1em;
+}
+
+.sns_account {
+  width: 20px;
+  margin-left: 94px;
+  margin-top: 57px;
+}
+
+.sns_account:not(:first-child) {
+  margin-left: 24px;
+}
+
+.fb {
+  width: 10.32px;
+}
+
+.sns_account:hover {
+  opacity: 0.8;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.slick-initialized {
+  display: block;
+}
+
+
+/* about section top page */
+
+.inner-top {
+  display: flex;
+}
+
+.about-lead {
+  padding-top: 95px;
+}
+
+.page-heading__title {
+  color: #fff;
+  display: block;
+  left: 50%;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding-left: 95px;
+  margin-top: -7px;
+}
+
+.page-heading__title>.en {
+  -webkit-text-stroke: 2px #FFF;
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.about-lead__logo {
+  zoom: 1.06;
+  padding-top: 69px;
+  padding-left: 19px;
+}
+
+.about-lead__body {
+  padding-left: 98px;
+  padding-top: 21px;
+  letter-spacing: 0.17em;
+  width: 52%;
+  line-height: 42px;
+}
+
+.about-lead__heading {
+  text-align: left;
+  font-size: 28px;
+}
+
+.about-lead__heading::after {
+  background: #333333;
+  bottom: 346px;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 63.8%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
+.about-lead__description {
+  text-align: left;
+  padding-top: 9px;
+}
+
+.about-description {
+  padding-bottom: 8px;
+}
+
+.about__btn {
+  display: block;
+}
+
+.about-lead__description {
+  text-align: left;
+  padding-top: 37px;
+  font-size: 15px;
+  letter-spacing: 0.17em;
+}
+
+.about-lead__description {
+  margin-bottom: 2.5em;
+}
+
+.about-description {
+  padding-bottom: 11px;
+}
+
+.about-lead__description p:not(:last-child) {
+  margin-bottom: 2.0em;
+  margin-top: 9px;
+  line-height: 32px;
+}
+
+.slide-items {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-items li {
+  width: 100%;
+  object-fit: cover;
+}
+
+.slick-prev:before{
+  display: none;
+}
+
+
+/* interview section*/
+
+.section-heading.m-left {
+  text-align: left;
+  padding-top: 0px;
+}
+
+.about-interview__description {
+  margin-bottom: 42px;
+  letter-spacing: 0.27em;
+}
+
+.about-interview {
+  padding-bottom: 403px;
+}
+
+.interview__btn {
+  float: left;
+}
+
+.about-interview__title {
+  margin-bottom: -33px;
+}
+
+.about-interview {
+  padding: 0 0 174px;
+}
+
+.about-interview {
+  padding: 163px 0 407px;
+}
+
+.about-interview__title {
+  font-size: 120px;
+  margin-bottom: -32px;
+  width: auto;
+}
+
+.about-interview {
+  padding: 4px 0 174px;
+  position: relative;
+}
+
+.section-heading.m-left {
+  text-align: left;
+  padding-top: 3px;
+}
+
+.m-left {
+  padding-top: 2px !important;
+}
+
+.section-heading {
+  margin-bottom: 46px !important;
+}
+
+.about-interview::before {
+  background: #F8F8F8;
+  content: "";
+  display: block;
+  height: 85%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: calc(100% - 40px);
+  z-index: -1;
+}
+
+.about-interview__title {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 0.9;
+  width: calc(100% - 40px);
+}
+
+.about-interview__description {
+  font-weight: 700;
+  margin-bottom: 39px;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  padding-top: 2px;
+}
+
+.about-interview__picture {
+  display: block;
+  margin: 80px calc(50% - 50vw) 0;
+}
+
+.about-interview__picture>img {
+  width: 100%;
+}
+
+
+/* news section */
+
+.news-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 60%;
+  width: 100%;
+  padding-right: 47px;
+  padding-left: 50px;
+  padding-bottom: 120px;
+  padding-top: 6px;
+  display: block;
+  box-sizing: content-box;
+}
+
+.news-list {
+  margin-top: 39px;
+  margin-bottom: 40px;
+}
+
+.news-eg-title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.news-eg-title::after {
+  background: #333333;
+  top: 175px;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100px;
+}
+
+.news-sub-title {
+  text-align: center;
+  padding-top: 38px;
+  font-weight: bold;
+}
+
+.news {
+  display: flex;
+  padding-right: 41.9%;
+  padding-top: 2.73%;
+}
+
+.date {
+  font-weight: bold;
+  padding-right: 14.1%;
+  padding-bottom: 4.49%;
+  border-bottom: solid 1px #000000;
+  font-family: "Roboto", sans-serif;
+}
+
+.news {
+  border-bottom: solid 1px #DDDDDD;
+  position: relative;
+}
+
+.news:hover {
+  background-color: #CECECE;
+}
+
+.arrow:hover {
+  background-color: #CECECE;
+}
+
+.news__btn {
+  margin: 0 auto;
+  max-width: 860px;
+  display: block !important;
+}
+
+.arrow {
+  display: inline-block;
+  padding: 10px;
+}
+
+.arrow::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border-top: solid 1.5px #000000;
+  border-right: solid 1.5px #000000;
+  position: absolute;
+  right: 2%;
+  top: 36px;
+}
+
+.arrow.arrow-right::before {
+  transform: rotate(45deg);
+}
+
+/* request section */
+
+.request {
+  padding: 75px 0 120px;
+}
+
+.section-heading.m-left {
+  text-align: left;
+}
+
+.request>.inner {
+  max-width: 1248px;
+}
+
+.section-heading {
+  margin-bottom: 47px;
+}
+
+/* footer */
+
+.footer__item {
+  letter-spacing: 0.1rem;
+  margin-bottom: 19px !important;
+}
+
+.footer__item a {
+  letter-spacing: 2px;
+}
+
+.footer__nav {
+  width: 354px;
+  margin: 0.2% 0 0 30%;
+}
+
+.footer {
+  padding: 78px 0 42px;
+}
+
+
+
+
+@media screen and (max-width:767px) {
+
+  /* top page */
+  .ja {
+    padding-right: 5px;
+  }
+
+  .index_top_title {
+    font-size: 32px;
+  }
+
+  .delife {
+    text-align: left;
+    font-size: 50px;
+    line-height: 59px;
+    max-width: 320px;
+  }
+
+  .page-heading__title {
+    padding-left: 20px;
+    padding-top: 144px;
+  }
+
+  .top_subtitle {
+    text-align: left;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 11px;
+  }
+
+  .sns_account {
+    margin-left: 20px;
+    margin-top: 61px;
+  }
+
+  .top-heading__title {
+    top: 54.2% !important;
+    color: #fff;
+    display: block;
+    left: 55.5%;
+  }
+
+  .about-lead {
+    padding-top: 53px;
+  }
+
+
+  /* footer */
+  .footer__nav {
+    margin: 0;
+    width: 100%;
+  }
+
+  .footer {
+    padding: 80px 0 42px
+  }
+
+  .footer__logo {
+    margin: 0 auto 83px;
+  }
+
+  .footer__item {
+    letter-spacing: 0.1rem;
+  }
+
+  .footer__item:not(:last-child) {
+    margin-bottom: 25px !important;
+  }
+
+  .footer__cv {
+    margin-top: 21px;
+  }
+
+  /* about section */
+
+  .top_logo {
+    max-width: 59%;
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 40px;
+  }
+
+  .inner-top {
+    display: block;
+  }
+
+  .about-lead__body {
+    max-width: 100%;
+    width: 335px;
+    padding: 0;
+  }
+
+  .about-lead__heading {
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    line-height: 29px;
+  }
+
+  .about-lead__logo {
+    zoom: 1;
+    padding-top: 27px;
+    padding-left: 0;
+  }
+
+  .about-lead__description {
+    text-align: left;
+    padding-top: 39px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    line-height: 24px;
+  }
+
+  .about-lead__description p:not(:last-child) {
+    margin-bottom: 1.6em;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  .about-lead__heading::after {
+    bottom: 261px;
+    left: 18.5%;
+  }
+
+  .about-description {
+    padding-bottom: 16px;
+  }
+
+  .section-heading {
+    margin-top: 34px;
+  }
+
+  .about-lead__description {
+    margin-bottom: 8em;
+  }
+
+  .about-interview__description {
+    margin-bottom: 39px;
+    letter-spacing: 0.11em;
+    font-size: 14px;
+  }
+
+  .about-interview__picture {
+    padding-top: 94px;
+  }
+
+  .about-interview::before {
+    height: 65.5%;
+  }
+
+  .about-interview {
+    padding: 0;
+  }
+
+  .news-container {
+    margin-top: 64px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 89%;
+  }
+
+  .news-eg-title {
+    font-size: 20px !important;
+  }
+
+  .news-list {
+    margin-top: 39px;
+  }
+
+  .date {
+    padding-right: 12.1%;
+    padding-bottom: 13.3%;
+  }
+
+  .news-eg-title::after {
+    top: 161px;
+  }
+
+  .news-sub-title {
+    text-align: center;
+    padding-top: 45px;
+  }
+
+  .news {
+    max-width: 100%;
+    padding-top: 28px;
+    padding-right: 40.9%;
+  }
+
+  .arrow {
+    padding: 0;
+  }
+
+  .arrow::before {
+    right: 6.2%;
+  }
+
+  .request {
+    padding: 44px 0.5px 140px 0.5px!important;
+  }
+
+  .footer__cv {
+    margin-top: 20px!important;
+  }
+
+}
+
+
+@media (min-width: 1053px) and (max-width:1137px) {
+
+  .index_top_title{
+    font-size: 50px;
+  }
+
+  .delife {
+    font-size: 80px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width:1023px) {
+
+  .about-lead__heading::after {
+    top: 169px;
+    left: 441px;
+  }
+
+  .about-lead__body {
+    width: 62%;
+    padding-left: 56px;
+  }
+
+
+  .interview__btn {
+    margin-bottom: 68px;
+  }
+
+  .index_top_title{
+    font-size: 50px;
+  }
+
+  .delife {
+    font-size: 80px;
+  }
+
+
+  .footer__nav {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-interview__title {
+    font-size: 80px !important;
+    margin-bottom: -32px;
+    width: auto;
+  }
+
+  .about-interview__picture {
+    top: 308px !important;
+  }
+
+  .about-interview::before {
+    height: 555px !important;
+  }
+
+}
+
+@media (min-width: 870px) and (max-width:1147px) {
+
+  .page-heading__title {
+    margin-top: 3%;
+  }
+}
+
+@media (min-width: 381px) and (max-width:767px) {
+
+  .about-lead__heading::after {
+    top: 135%;
+  }
+
+  .about-lead__heading {
+    position: relative;
+  }
+
+
+
+}
+
+
+@media (min-width: 320px) and (max-width:359px) {
+
+  .about-interview__title {
+    width: 100%;
+  }
+
+
+  .news {
+    padding-right: 0;
+  }
+
+  .inner {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) {
+  .about-interview {
+    overflow: hidden;
+    padding-bottom: 302px;
+    margin-top: 81px;
+  }
+
+  .about-interview::before {
+    height: 670px;
+    width: 81.25%;
+  }
+
+  .about-interview__title {
+    font-size: 120px;
+    margin-bottom: -32px;
+    width: auto;
+  }
+
+  .about-interview__picture {
+    margin: 0;
+    position: absolute;
+    right: -54px;
+    top: 248px;
+    width: 66.5165165165%;
+  }
+}
+
+@media (min-width: 843px) and (max-width:897px) {
+
+  .index_top_title{
+    font-size: 50px;
+  }
+
+  .delife {
+    font-size: 70px;
+  }
+
+}
